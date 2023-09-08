@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 65.5%;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  padding: 4rem 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #edf2f8;
+  font-size: 1.6rem;
+  color: #080a10;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 7.5rem;
+}
+.nav__logo-title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #080a10;
+}
+.nav__logo-title span {
+  font-weight: 200;
+  color: #8e9399;
+}
+.nav__links-link {
+  padding: 1.5rem;
+  margin-right: 1rem;
+  color: #a5a6a8;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 1.7rem;
+  transition: color 0.4s, background-color 0.4s;
+  cursor: pointer;
+}
+.nav__links-link:hover {
+  color: #ceabea;
+  background-color: #080a10;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 82vh;
+}
+.header__text {
+  display: flex;
+  justify-content: flex-start;
+  height: 45%;
+  flex-direction: column;
+  width: 50%;
+}
+.header__text-name {
+  color: #ceabea;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.header__text-proffestion {
+  margin-top: 1rem;
+  font-size: 4.4rem;
+  line-height: 5rem;
+  font-weight: bold;
+}
+.header__text-proffestion span {
+  font-size: 4rem;
+  font-weight: normal;
+  color: #8e9399;
+}
+.header__text-btn {
+  width: 40%;
+  padding: 2rem 4rem;
+  background-color: #ceabea;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 8px #a5a6a8;
+}
+.header__text-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #edf2f8;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+.header__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: #ceabea;
+  background-image: url("../../dist/img/portrait.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=main.css.map */
